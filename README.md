@@ -12,8 +12,7 @@
 | Zertifikat | Status |
 |---|---|
 | AWS Certified Solutions Architect – Associate (SAA-C03) | ✅ Zertifiziert |
-| AWS Certified Developer – Associate (DVA-C02) | 🔜 Geplant |
-| HashiCorp Certified: Terraform Associate | 🔜 Geplant |
+| AWS Certified Solutions Architect – Professional (SAA-C02) | 🔜 Geplant |
 
 ---
 
