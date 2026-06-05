@@ -1,108 +1,74 @@
-# 👋 Hi, ich bin Mehdi Mohammadi
+<h1 align="center">Hi, I'm Mehdi 👋</h1>
+<h3 align="center">Aspiring Cloud Architect | AWS Certified Solutions Architect – Associate</h3>
 
-### ☁️ AWS Certified Solutions Architect – Associate (SAA-C03) · Software Engineer → Cloud Engineer
-
-> Erfahrener Softwareentwickler und technischer Projektleiter (~8 Jahre) mit gezieltem Umstieg in die AWS-Cloud.
-> Hier dokumentiere ich meine praxisnahen AWS-Projekte – von einer global ausgelieferten Website bis zu einer Cloud-Migration nach dem 7-R-Modell. Region: `eu-central-1` (Frankfurt).
-
----
-
-## 🏅 Zertifikate
-
-| Zertifikat | Status |
-|---|---|
-| AWS Certified Solutions Architect – Associate (SAA-C03) | ✅ Zertifiziert |
-| AWS Certified Solutions Architect – Professional (SAP-C02) | 🔜 In Vorbereitung |
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-Certified%20SAA--C03-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified"/>
+  <img src="https://img.shields.io/badge/Location-Germany-000000?style=for-the-badge" alt="Germany"/>
+  <img src="https://img.shields.io/badge/Open%20to-Cloud%20%26%20DevOps%20Roles-2E73B7?style=for-the-badge" alt="Open to work"/>
+</p>
 
 ---
 
-## 🛠️ Tech-Stack
+## 👨‍💻 About Me
 
-**AWS**
-
-![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazonec2&logoColor=white)
-![S3](https://img.shields.io/badge/S3-569A31?style=flat&logo=amazons3&logoColor=white)
-![CloudFront](https://img.shields.io/badge/CloudFront-FF9900?style=flat&logo=amazonaws&logoColor=white)
-![VPC](https://img.shields.io/badge/VPC-FF9900?style=flat&logo=amazonaws&logoColor=white)
-![IAM](https://img.shields.io/badge/IAM-DD344C?style=flat&logo=amazonaws&logoColor=white)
-![Auto Scaling](https://img.shields.io/badge/Auto_Scaling-FF9900?style=flat&logo=amazonaws&logoColor=white)
-![ELB](https://img.shields.io/badge/ELB-FF9900?style=flat&logo=amazonaws&logoColor=white)
-![RDS](https://img.shields.io/badge/RDS-527FFF?style=flat&logo=amazonrds&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat&logo=amazondynamodb&logoColor=white)
-![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=awslambda&logoColor=white)
-![API Gateway](https://img.shields.io/badge/API_Gateway-FF4F8B?style=flat&logo=amazonapigateway&logoColor=white)
-![SQS](https://img.shields.io/badge/SQS-FF4F8B?style=flat&logo=amazonsqs&logoColor=white)
-
-**Infrastructure & DevOps**
-
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+- 🌩️ Transitioning into **Cloud Architecture & DevOps**
+- 🎓 **AWS Certified Solutions Architect – Associate (SAA-C03)**
+- 🛠️ Building real, hands-on AWS architectures from the ground up
+- 📚 Documenting every project: README, architecture diagram, and key learnings
+- 🌍 Based in Germany — fluent in **German & English**
+- 🎯 Seeking opportunities in **Cloud / Solutions Architecture / DevOps**
 
 ---
 
-## 📂 Portfolio-Projekte
+## 🏗️ AWS Project Portfolio
 
-> Jedes Projekt hat ein eigenes Repo mit README, Architektur-Diagramm und Code/IaC.
+A hands-on journey building production-style cloud architectures — each project documented end-to-end.
 
-### 1. Globale statische Website
-> S3 · CloudFront · ACM (HTTPS) · IAM/OAC
+| # | Project | Core Services | What It Demonstrates |
+|---|---------|---------------|----------------------|
+| 1 | [Static Website](https://github.com/mehdi-mohammadi-tech/aws-project-1-static-website) | S3, CloudFront, OAC | Global content delivery, HTTPS, secure origin access |
+| 2 | [High Availability Web App](https://github.com/mehdi-mohammadi-tech/aws-project-2-high-availability-web-app) | VPC, EC2, ALB, Auto Scaling | Multi-AZ, load balancing, self-healing infrastructure |
+| 3 | [Database Layer](https://github.com/mehdi-mohammadi-tech/aws-project-3-database-layer) | RDS (MySQL), DynamoDB | SQL vs NoSQL, private databases, secure networking |
+| 4 | [Serverless API](https://github.com/mehdi-mohammadi-tech/aws-project-4-serverless-api) | Lambda, API Gateway, DynamoDB | Event-driven, pay-per-use, auto-scaling APIs |
+| 5 | [Containers, IaC & CI/CD](https://github.com/mehdi-mohammadi-tech/aws-project-5-cicd) | Docker, ECR, ECS Fargate, Terraform, GitHub Actions | Full DevOps pipeline: build → push → deploy automatically |
 
-Statisches Hosting mit weltweiter Auslieferung über ein CDN und HTTPS; der S3-Bucket bleibt privat (nur CloudFront darf lesen).
-🔗 **[Zum Repo](https://github.com/mehdi-mohammadi-tech/aws-static-website-s3-cloudfront)**
-
-### 2. Hochverfügbare Web-Anwendung
-> VPC · EC2 · Application Load Balancer · Auto Scaling · Multi-AZ
-
-Ausfallsichere, elastische Architektur über mehrere Availability Zones mit selbstheilenden EC2-Instanzen hinter einem Load Balancer.
-🔗 **[Zum Repo](https://github.com/mehdi-mohammadi-tech/aws-high-availability-web-app)**
-
-### 3. Datenschicht (SQL & NoSQL)
-> RDS (MySQL) · DynamoDB · Backups · S3-Lifecycle
-
-Relationale und NoSQL-Datenbank im Vergleich – jede gewählt nach Zugriffsmuster. Schwerpunkt: Datenmodellierung und Managed Databases.
-🔗 **[Zum Repo](https://github.com/mehdi-mohammadi-tech/aws-database-layer-rds-dynamodb)**
-
-### 4. Serverless & Entkopplung
-> Lambda (Python) · API Gateway · SQS · DynamoDB
-
-Event-getriebenes, serverloses Backend mit entkoppelten Komponenten über eine Message-Queue.
-🔗 **[Zum Repo](https://github.com/mehdi-mohammadi-tech/aws-serverless-api-lambda-sqs)**
-
-### 5. Container, IaC & CI/CD
-> Docker · Kubernetes · Terraform · GitHub Actions
-
-Containerisierung, Infrastructure as Code und ein automatisiertes Deployment per CI/CD-Pipeline.
-🔗 **[Zum Repo](https://github.com/mehdi-mohammadi-tech/aws-iac-cicd-docker-kubernetes)**
-
-### 6. Cloud-Migration (Capstone)
-> Migrationsstrategie (7 R's) · Well-Architected Review
-
-Abschlussprojekt: Simulation einer On-Premise-zu-AWS-Migration mit dokumentierter Strategie und Well-Architected-Bewertung.
-🔗 **[Zum Repo](https://github.com/mehdi-mohammadi-tech/aws-cloud-migration-capstone)**
+> 💡 Each repository includes a detailed README, an architecture diagram, and the reasoning behind every design decision.
 
 ---
 
-## 📊 GitHub Stats
+## 🧰 Tech & Tools
 
-![Mehdis GitHub Stats](https://github-readme-stats.vercel.app/api?username=mehdi-mohammadi-tech&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117)
+<p>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=FF9900"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mehdi-mohammadi-tech&layout=compact&theme=dark&hide_border=true&bg_color=0d1117)
+**AWS Services:** EC2 · S3 · VPC · IAM · RDS · DynamoDB · Lambda · API Gateway · ECS Fargate · ECR · CloudFront · ALB · Auto Scaling · CloudFormation
+
+**Practices:** Infrastructure as Code · CI/CD · Containerization · High Availability · Security (Least Privilege) · Cost Optimization
 
 ---
 
-## 🤝 Kontakt
+## 📜 Certifications
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mehdi-mohammadi-347704393/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:mehdi.mohammadi.pro@gmail.com)
-<!-- Credly: ersetze DEIN-BADGE durch den echten Link aus deinem Credly-Profil -->
-[![AWS Badge](https://img.shields.io/badge/AWS_Certified-FF9900?style=flat&logo=amazonaws&logoColor=white)](https://www.credly.com/users/DEIN-PROFIL)
+- ✅ **AWS Certified Solutions Architect – Associate (SAA-C03)**
 
 ---
 
-*Offen für Cloud Engineer Positionen mit Entwickler-Hintergrund in Deutschland 🇩🇪*
+## 📫 Let's Connect
+
+<p>
+  <a href="https://linkedin.com/in/mehdi-mohammadi-347704393">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+</p>
+
+---
+
+<p align="center"><i>Always learning, always building. ☁️</i></p>
